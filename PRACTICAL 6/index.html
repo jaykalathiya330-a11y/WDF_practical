@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Event List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Event List</h1>
+
+    <div class="controls">
+        <input type="text" id="search" placeholder="Search event">
+
+        <select id="category">
+            <option value="all">All Categories</option>
+            <option value="Technical">Technical</option>
+            <option value="Cultural">Cultural</option>
+            <option value="Sports">Sports</option>
+        </select>
+
+        <select id="sort">
+            <option value="none">Sort By</option>
+            <option value="asc">Date: Old to New</option>
+            <option value="desc">Date: New to Old</option>
+        </select>
+    </div>
+
+    <p id="loading">Loading events...</p>
+    <p id="error"></p>
+
+    <div id="eventList"></div>
+
+    <div id="pagination"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

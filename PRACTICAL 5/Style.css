@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eaf3ff;
+}
+
+.form-box {
+    width: 500px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: white;
+    border: 2px solid #1e5aa8;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: #1e5aa8;
+}
+
+label {
+    display: block;
+    margin-top: 12px;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"],
+select {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #999;
+    border-radius: 5px;
+}
+
+.gender {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.gender label {
+    margin: 0;
+}
+
+.terms {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 15px;
+}
+
+.terms label {
+    margin: 0;
+}
+
+.error {
+    display: block;
+    color: red;
+    font-size: 14px;
+    margin-top: 4px;
+}
+
+.strength {
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+#strengthText {
+    font-weight: bold;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    padding: 10px 20px;
+    margin-top: 20px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"] {
+    background-color: #1e5aa8;
+    color: white;
+}
+
+input[type="reset"] {
+    background-color: #777;
+    color: white;
+}
+
+#successMessage {
+    color: green;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15px;
+}

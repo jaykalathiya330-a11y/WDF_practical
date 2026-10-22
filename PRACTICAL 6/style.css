@@ -1,0 +1,62 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f6ff;
+    margin: 30px;
+}
+
+h1 {
+    text-align: center;
+    color: #1e5aa8;
+}
+
+.controls {
+    text-align: center;
+    margin: 20px;
+}
+
+input, select {
+    padding: 10px;
+    margin: 5px;
+    width: 200px;
+}
+
+#eventList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.event {
+    background-color: white;
+    width: 280px;
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.event h2 {
+    color: #1e5aa8;
+}
+
+#loading {
+    text-align: center;
+}
+
+#error {
+    text-align: center;
+    color: red;
+}
+
+#pagination {
+    text-align: center;
+    margin: 20px;
+}
+
+button {
+    padding: 8px 15px;
+    margin: 5px;
+    cursor: pointer;
+}
+

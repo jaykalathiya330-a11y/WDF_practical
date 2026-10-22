@@ -1,0 +1,172 @@
+
+body {
+    background-color: #eaf3ff;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    background-color: #1e5aa8;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+hr {
+    border: 2px solid #1e5aa8;
+}
+
+.form-box {
+    width: 450px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: white;
+    border: 2px solid #1e5aa8;
+    border-radius: 10px;
+    box-shadow: 0 0 10px gray;
+}
+
+label {
+    font-weight: bold;
+    font-size: 17px;
+    color: #123b70;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 280px;
+    height: 35px;
+    padding-left: 8px;
+    margin: 5px;
+    border: 2px solid #8aaed1;
+    border-radius: 5px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+    border: 2px solid #1e5aa8;
+    outline: none;
+}
+
+textarea {
+    width: 280px;
+    padding: 8px;
+    border: 2px solid #8aaed1;
+    border-radius: 5px;
+}
+
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+    width: 120px;
+    height: 40px;
+    background-color: #1e5aa8;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover {
+    background-color: #123b70;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: #1e5aa8;
+    font-weight: bold;
+    margin: 6px;
+    padding: 10px 14px;
+    border: 2px solid #1e5aa8;
+    border-radius: 6px;
+
+    background-color: white;
+}
+
+a:hover {
+    color: white;
+    background-color: #1e5aa8;
+}
+
+table {
+    width: 80%;
+    margin: 25px auto;
+    border-collapse: collapse;
+    background-color: white;
+    
+}
+
+th,
+
+td {
+    border: 2px solid #1e5aa8;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid black;
+}
+
+th {
+    background-color: #1e5aa8;
+    color: white;
+    border: 2px solid black;
+}
+
+tr:nth-child(even) {
+    background-color: #eaf3ff;
+}
+
+fieldset {
+    width: 400px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: white;
+    border: 2px solid #1e5aa8;
+    border-radius: 8px;
+}
+legend {
+    color: #1e5aa8;
+    font-weight: bold;
+}
+
+ul {
+    width: 450px;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+li {
+    list-style: none;
+    background-color: white;
+    border: 2px solid #1e5aa8;
+    border-radius: 6px;
+    padding: 12px;
+    margin: 8px;
+    font-weight: bold;
+    color: #123b70;
+}
+
+li:hover {
+    background-color: #1e5aa8;
+    color: white;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 10px;
+    border: 3px solid #1e5aa8;
+}
+
+footer {
+    margin-top: 30px;
+    text-align: center;
+    color: #1e5aa8;
+    font-weight: bold;
+}
+

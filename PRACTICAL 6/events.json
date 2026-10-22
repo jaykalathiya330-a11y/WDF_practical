@@ -1,0 +1,110 @@
+
+[
+    {
+        "id": 1,
+        "name": "Coding Competition",
+        "category": "Technical",
+        "date": "2026-10-05",
+        "venue": "Lab 1"
+    },
+    {
+        "id": 2,
+        "name": "Dance Competition",
+        "category": "Cultural",
+        "date": "2026-10-07",
+        "venue": "Main Auditorium"
+    },
+    {
+        "id": 3,
+        "name": "Football Tournament",
+        "category": "Sports",
+        "date": "2026-10-10",
+        "venue": "College Ground"
+    },
+    {
+        "id": 4,
+        "name": "Web Development Workshop",
+        "category": "Technical",
+        "date": "2026-10-12",
+        "venue": "Computer Lab"
+    },
+    {
+        "id": 5,
+        "name": "Singing Competition",
+        "category": "Cultural",
+        "date": "2026-10-15",
+        "venue": "Main Auditorium"
+    },
+    {
+        "id": 6,
+        "name": "Cricket Tournament",
+        "category": "Sports",
+        "date": "2026-10-18",
+        "venue": "College Ground"
+    },
+    {
+        "id": 7,
+        "name": "Java Workshop",
+        "category": "Technical",
+        "date": "2026-10-20",
+        "venue": "Lab 2"
+    },
+    {
+        "id": 8,
+        "name": "Drama Competition",
+        "category": "Cultural",
+        "date": "2026-10-22",
+        "venue": "Main Auditorium"
+    },
+    {
+        "id": 9,
+        "name": "Basketball Tournament",
+        "category": "Sports",
+        "date": "2026-10-25",
+        "venue": "Sports Complex"
+    },
+    {
+        "id": 10,
+        "name": "AI Seminar",
+        "category": "Technical",
+        "date": "2026-10-28",
+        "venue": "Seminar Hall"
+    },
+    {
+        "id": 11,
+        "name": "Fashion Show",
+        "category": "Cultural",
+        "date": "2026-10-30",
+        "venue": "Main Auditorium"
+    },
+    {
+        "id": 12,
+        "name": "Badminton Tournament",
+        "category": "Sports",
+        "date": "2026-11-02",
+        "venue": "Sports Complex"
+    },
+    {
+        "id": 13,
+        "name": "Cyber Security Seminar",
+        "category": "Technical",
+        "date": "2026-11-05",
+        "venue": "Seminar Hall"
+    },
+    {
+        "id": 14,
+        "name": "Skit Competition",
+        "category": "Cultural",
+        "date": "2026-11-08",
+        "venue": "Main Auditorium"
+    },
+    {
+        "id": 15,
+        "name": "Volleyball Tournament",
+        "category": "Sports",
+        "date": "2026-11-10",
+        "venue": "College Ground"
+    }
+    
+]
+
